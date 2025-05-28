@@ -24,7 +24,7 @@ ALWAYS
 	ACTION_DEFINE_ARRAY tra#reload BEGIN tp2 setup END
 
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY tra#noconvert BEGIN END
+	ACTION_DEFINE_ARRAY tra#noconvert BEGIN setup END
 
 	LAF HANDLE_CHARSETS
 		INT_VAR
@@ -75,6 +75,11 @@ LANGUAGE 	~Spanish(Clan REO)~
 			~Spanish~
 			~TDDz/Translations/Spanish/setup.tra~
 			~TDDz/Translations/Spanish/tp2.tra~
+
+LANGUAGE 	~Simplified Chinese~
+			~Schinese~
+			~TDDz/Translations/Schinese/setup.tra~
+			~TDDz/Translations/Schinese/tp2.tra~
 
 // TODO: TTPOT.itm has weird name in vanilla BG2EE...is it normal???
 
